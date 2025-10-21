@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+data/content/
+data/mock/
+data/metrics/
+data/insights/
+
+.DS_Store
+.env
