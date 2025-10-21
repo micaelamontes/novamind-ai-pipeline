@@ -71,18 +71,18 @@ Workflow:
 4. Analyze: AI-style insights generated with next-step recommendations
 
 After one full run:
-📝 data/content/cmp_2025-10-20.json – Blog + newsletter dataset
-💌 data/mock/hubspot_logs.json – “Sent” email logs
-📊 data/metrics/performance_log.csv – Engagement metrics
-🧠 data/insights/insights_cmp_2025-10-20.md – AI performance summary
+- 📝 data/content/cmp_2025-10-20.json – Blog + newsletter dataset
+- 💌 data/mock/hubspot_logs.json – “Sent” email logs
+- 📊 data/metrics/performance_log.csv – Engagement metrics
+- 🧠 data/insights/insights_cmp_2025-10-20.md – AI performance summary
 
 
 
 Setup Instructions
-1) Create a virtual environment:
+1.  Create a virtual environment:
     python3 -m venv .venv
     source .venv/bin/activate
-2) Install dependencies:
+2.  Install dependencies:
     pip install -r requirements.txt
-3) Run the full pipeline:
+3.  Run the full pipeline:
     python3 -m src.run_pipeline
